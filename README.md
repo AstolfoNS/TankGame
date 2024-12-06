@@ -1,2 +1,3 @@
 # Building...
 # TankGame
+This is a small game program similar to Tank Turmoil, written in C++ and rendered using EasyX.
