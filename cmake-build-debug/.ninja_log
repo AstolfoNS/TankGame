@@ -1,4 +1,10 @@
 # ninja log v6
-6	1373	7551649044298633	CMakeFiles/TankGame.dir/GlobalVariable.cpp.obj	316b0282494efe55
-2	1461	7551649044263910	CMakeFiles/TankGame.dir/main.cpp.obj	493e60685384e62e
-1462	1577	7551649058865426	TankGame.exe	7c40ce1dd7d97504
+94	2519	7576725630882119	CMakeFiles/TankGame.dir/GlobalVariable.cpp.obj	316b0282494efe55
+53	2600	7576725630474460	CMakeFiles/TankGame.dir/main.cpp.obj	493e60685384e62e
+2600	3040	7576725655947788	TankGame.exe	7c40ce1dd7d97504
+29	1414	7607157074265105	CMakeFiles/TankGame.dir/GlobalVariable.cpp.obj	dbfdb61971520515
+12	1516	7607157074088242	CMakeFiles/TankGame.dir/main.cpp.obj	7158fbeebc73bc0c
+1517	1714	7607157089139260	TankGame.exe	9cdb42d9bcf1bc28
+205	2242	7752578606488918	CMakeFiles/TankGame.dir/GlobalVariable.cpp.obj	dbfdb61971520515
+68	2318	7752578605127582	CMakeFiles/TankGame.dir/main.cpp.obj	7158fbeebc73bc0c
+2319	2982	7752578627625165	TankGame.exe	9cdb42d9bcf1bc28

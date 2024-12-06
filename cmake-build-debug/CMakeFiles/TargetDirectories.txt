@@ -1,3 +1,3 @@
-D:/Computer_software/sum_code_works/Clion/TankGame/cmake-build-debug/CMakeFiles/TankGame.dir
-D:/Computer_software/sum_code_works/Clion/TankGame/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Computer_software/sum_code_works/Clion/TankGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Astol/SoftwareProjects/Clion/TankGame/cmake-build-debug/CMakeFiles/TankGame.dir
+C:/Users/Astol/SoftwareProjects/Clion/TankGame/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Astol/SoftwareProjects/Clion/TankGame/cmake-build-debug/CMakeFiles/rebuild_cache.dir

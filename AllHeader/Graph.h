@@ -47,7 +47,7 @@ private:
         int BB = BRCoordinate.y;
         int TB = chunkY;
 
-        int massage[4][4] = {
+        int message[4][4] = {
             {TT, BT, chunkX, rand_range_int(TT, BT)},
             {LR, RR, chunkY, rand_range_int(LR, RR)},
             {TB, BB, chunkX, rand_range_int(TB, BB)},
@@ -56,11 +56,11 @@ private:
 
         for (int i = 0, randChoice = rand_range_int(0, 10); i <= 3; i++) {
             if (i == randChoice) {
-                massage[i][3] = 0;
+                message[i][3] = 0;
             } else {
-                coordinateSet.insert(i & 1 ? std::make_pair(massage[i][3], massage[i][2]) : std::make_pair(massage[i][2], massage[i][3]));
+                coordinateSet.insert(i & 1 ? std::make_pair(message[i][3], message[i][2]) : std::make_pair(message[i][2], message[i][3]));
             }
-            painter.paint_chunk_line({massage[i][0], massage[i][1]}, massage[i][2], massage[i][3], i & 1);
+            painter.paint_chunk_line({message[i][0], message[i][1]}, message[i][2], message[i][3], i & 1);
         }
 
         _create_maze(TLCoordinate, {chunkX - 1, chunkY - 1});

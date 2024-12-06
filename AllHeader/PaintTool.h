@@ -57,6 +57,14 @@ private:
         this->color = paintColor;
         setfillcolor(paintColor);
     }
+    void _paint_chunk_line(PII range, int standard, int randMid, int colOrRow)
+    {
+        if (colOrRow) {
+            paint_chunk_row_line(range, standard, randMid);
+        } else {
+            paint_chunk_col_line(range, standard, randMid);
+        }
+    }
 
 public:
     void reset_fillcolor(COL paintColor) { _reset_fillcolor(paintColor); }
@@ -79,14 +87,7 @@ public:
 
     void paint_chunk_col_line(PII TB, int chunkX, int randMid = 0) { _paint_chunk_col_line(TB, chunkX, randMid); };
 
-    void paint_chunk_line(PII range, int standard, int randMid, int colOrRow)
-    {
-        if (colOrRow) {
-            paint_chunk_row_line(range, standard, randMid);
-        } else {
-            paint_chunk_col_line(range, standard, randMid);
-        }
-    }
+    void paint_chunk_line(PII range, int standard, int randMid, int colOrRow) { _paint_chunk_line(range, standard, randMid, colOrRow); }
 
     ~PaintTool() = default;
 };

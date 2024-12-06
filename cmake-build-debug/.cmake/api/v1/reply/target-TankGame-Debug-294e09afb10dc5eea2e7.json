@@ -59,7 +59,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "D:/Computer_software/sum_code_works/Clion/TankGame/./EasyX/include"
+					"path" : "C:/Users/Astol/SoftwareProjects/Clion/TankGame/./EasyX/include"
 				}
 			],
 			"language" : "CXX",
@@ -93,7 +93,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-LD:\\Computer_software\\sum_code_works\\Clion\\TankGame\\.\\EasyX\\lib64",
+				"fragment" : "-LC:\\Users\\Astol\\SoftwareProjects\\Clion\\TankGame\\.\\EasyX\\lib64",
 				"role" : "libraryPath"
 			},
 			{
