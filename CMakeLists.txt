@@ -19,5 +19,6 @@ add_executable(
         AllHeader/Graph.h
         AllHeader/Player.h
         AllHeader/RandFunction.h
+        AllHeader/Tank.h
 )
 

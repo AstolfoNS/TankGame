@@ -144,7 +144,8 @@
 				6,
 				7,
 				8,
-				9
+				9,
+				10
 			]
 		}
 	],
@@ -200,6 +201,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "AllHeader/RandFunction.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "AllHeader/Tank.h",
 			"sourceGroupIndex" : 1
 		}
 	],
